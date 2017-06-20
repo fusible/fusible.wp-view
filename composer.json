@@ -1,0 +1,22 @@
+{
+    "name": "fusible/wp-view",
+    "description": "Aura View for Wordpress",
+    "type": "library",
+    "require": {
+        "aura/view": "^2.2",
+        "aura/html": "^2.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jake johns",
+            "email": "jake@jakejohns.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Fusible\\WpView\\": "src/"
+        }
+    }
+}
